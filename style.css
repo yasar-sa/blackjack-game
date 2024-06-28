@@ -1,0 +1,44 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(./assets/table-background.jpg);
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image from repeating */
+    height: calc(113vh - 100px);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1{
+    color: goldenrod;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+button{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    font-size: medium;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 5px;
+    border-color: goldenrod;
+    margin: 10px;
+}
+button:hover{
+    border-color: rgb(247, 199, 77);
+    background-color: rgb(247, 199, 77);
+    height: 55px;
+    width: 155px;
+    transition: all 0.2s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
